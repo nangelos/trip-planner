@@ -5,10 +5,59 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #C1B5AD;
+  background-color: #dcdcdc;
+}
+
+#nav-container {
+  display: flex;
+  background-color: rgb(28, 214, 121);
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Baloo';
+  color: #fff;
+  font-size: 38px;
+  margin-left: 2vh;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.navigation {
+  font-family: 'Baloo';
+  color: #fff;
+  font-size: 20px;
+  padding-top: 3vh;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.navigation a {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 3vw;
+  text-decoration: none;
+}
+
+.dropdown {
+  margin: 5px;
+  width: 15vw;
+}
+
+#content-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#selectors {
+  /* text-align: center; */
+ flex-basis: 20vw;
 }
 
 #map {
-  height: 100vh;
-  width: 100vw;
+  height: 90vh;
+  width: 60vw;
+}
+
+#itinerary {
+  flex-basis: 20vw;
 }

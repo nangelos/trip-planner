@@ -7,11 +7,53 @@
   <title>Document</title>
   <link href='./style.css' rel="stylesheet" type="text/css">
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+  <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
   <script defer src="./bundle.js"></script>
 </head>
 <body>
-  <div id="map">
-    <h1>This is the page</h1>
+  <div id='nav-container'>
+    <div class='title'>MAPAPP</div>
+    <div class='navigation'>
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">CONTACT</a>
+    </div>
+  </div>
+
+  <div id='content-container'>
+    <div id='selectors'>
+      <p>Hotels</p>
+      <select class='dropdown'>
+        <option value="aceHotel">Ace Hotel</option>
+        <option value="baseHotel">Base Hotel</option>
+        <option value="caseHotel">Case Hotel</option>
+        <option value="faceMotel">Face Motel</option>
+        <option value="gaceHotel">Gace Hotel</option>
+      </select>
+
+      <p>Restaurants</p>
+      <select class='dropdown'>
+        <option value="acePub">Ace Pub and grill</option>
+        <option value="baseBar">Base Bar</option>
+        <option value="caseGrill">Case Grill</option>
+        <option value="facePlace">Face Place</option>
+        <option value="gaceGrill">Gace Grill</option>
+      </select>
+
+
+
+      <p>Activities</p>
+      <select class='dropdown'>
+          <option value="aceShop">Ace Hardware Shopathon</option>
+          <option value="baseball">Baseball Game</option>
+          <option value="caseGrill">Case The Joint</option>
+          <option value="facePlace">Face Plant</option>
+          <option value="gacey">Gacey</option>
+        </select>
+
+    </div>
+    <div id='map'></div>
+    <div id='itinerary'>ITINERARY AREA</div>
   </div>
 
 </body>
