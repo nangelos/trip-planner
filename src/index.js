@@ -18,7 +18,10 @@ markElem.style.height = '32px';
 markElem.style.backgroundImage = 'url(http://i.imgur.com/WbMOfMl.png)';
 
 new mapboxgl.Marker(markElem)
-  .setLngLat([-87.6354, 41.8885])
+  .setLngLat([-87.639035, 41.895266])
   .addTo(map);
 
 console.log('new stuff!!!!!');
+
+
+// .setLngLat([-87.6354, 41.8885])
